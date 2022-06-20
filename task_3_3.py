@@ -16,15 +16,15 @@
 
 def thesaurus(some_list):
     for name in some_list:
-        if name[0] in dict:
-            b = dict.get(name[0]).append(name)  # !!!! очень интересное свойство, я был в шоке
+        if name[0] in dict1:
+            dict1.get(name[0]).append(name)  # !!!! очень интересное свойство
         else:
-            dict[name[0]] = [name]
-    for key in sorted(dict.keys()):
-        print(f'\t{key}:  {dict[key]}')
+            dict1[name[0]] = [name]
+    for key in sorted(dict1.keys()):
+        print(f'\t{key}:  {dict1[key]}')
 
 
-dict = {}
+dict1 = {}
 some_list = ["Иван", "Мария", "Петр", "Илья", "Кирилл", "Маша", "Алексей"]
 
 thesaurus(some_list)
