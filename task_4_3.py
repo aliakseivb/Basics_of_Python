@@ -27,21 +27,37 @@ def thesaurus_adv():
 
 
 some_dict = {}
-dict_sorted = {}
+
 new_dict = {}
 some_tuple = ("Иван Сергеев", "Алла Сидорова", "Инна Серова",
               "Петр Алексеев", "Илья Иванов", "Анна Савельева", "Василий Суриков")
 
 for name_surname in some_tuple:
     if name_surname[name_surname.find(' ') + 1] in some_dict:
-        name_surname_plus = {some_dict.get(name_surname[name_surname.find(' ') + 1]).append(name_surname)}
+        some_dict.get(name_surname[name_surname.find(' ') + 1]).append(name_surname)
     else:
         some_dict[name_surname[name_surname.find(' ') + 1]] = [name_surname]
-print(some_dict)
+dict_sorted = dict(sorted(some_dict.items()))
+print(dict_sorted)
+new_dict_1 = {}
+for key in dict_sorted:
+    for i in dict_sorted[key]:
+        new_dict_1[i[0]] = i
+new_dict = new_dict_1
+print(new_dict)
 
-for key in sorted(some_dict.keys()):
-    print(f'\t{key}:  {some_dict[key]}')
-#     new_dict += {{key}:  {some_dict[key]}}
+            # пусто = пусто по ключу присовить значение
+        # new_dict[key] = new_dict.update({[name[0]]: new_dict[name[0]]})
+        # d.update({"A1": "333", "A3": "789"})
+
+
+
+
+# for key in sorted(some_dict.keys()):
+#     # new_dict =
+#     print(f'\t{key}:  {some_dict[key]}')
+
+    # new_dict += {{key}:  {some_dict[key]}}
 # for key in dict:
 #     if key[name_surname.find(' ') + 1] in dict:
 #         name_surname_plus = {dict.get(name_surname[name_surname.find(' ') + 1]).append(name_surname)}

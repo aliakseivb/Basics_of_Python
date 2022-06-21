@@ -14,17 +14,44 @@
 # Алгоритм
 # Вспомните как обработать произвольное количество передаваемых параметров.
 
-def thesaurus(some_list):
-    for name in some_list:
+# def thesaurus(*args):
+#     pass
+#     # for name[0] in args:
+#     #     print(name)
+#
+#     #     for i in name:
+#     #         dict1[name[i][0]] = [name[i]]
+#     #         print(dict1)
+#     # #     if name[0][0] in dict1:
+#     #         dict1.get(name[0][0]).append(name)  # !!!! очень интересное свойство
+#     #     else:
+#     #         dict1[name[0][0]] = [name]
+#     # dict_new = dict(sorted(dict1.items()))
+#     # print(dict_new)
+#     # return dict(sorted(dict1.items()))
+#
+# dic = {}
+# some_list = "Иван", "Мария", "Петр", "Илья", "Кирилл", "Маша", "Алексей"
+# for name in some_list:
+#     if name[0] in dic:
+#         print(name[0])
+#         print(dic.get(name[0]))
+#         print(type(dic.get(name[0])))
+#         dic[name[0]] = dic.update({dic[name[0]]: [dic.get(name[0]).append(name)]})
+#         print(dic)
+#     else:
+#         dic[name[0]] = [name]
+# print(dic)
+# # thesaurus(some_list)
+
+def thesaurus(*args):
+    dict1 = {}
+    for name in args:
         if name[0] in dict1:
             dict1.get(name[0]).append(name)  # !!!! очень интересное свойство
         else:
             dict1[name[0]] = [name]
-    for key in sorted(dict1.keys()):
-        print(f'\t{key}:  {dict1[key]}')
+    return dict(sorted(dict1.items()))
 
 
-dict1 = {}
-some_list = ["Иван", "Мария", "Петр", "Илья", "Кирилл", "Маша", "Алексей"]
-
-thesaurus(some_list)
+thesaurus("Иван", "Мария", "Петр", "Илья", "Кирилл", "Маша", "Алексей", "Дмитрий", "Илья(второй)", "Костя", "Марина", "Андрей")
