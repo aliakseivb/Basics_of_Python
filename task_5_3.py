@@ -28,7 +28,7 @@
 import random
 
 
-def get_jokes(n, a, ad, count):
+def get_jokes(n, a, ad, count=1):
     jokes_txt = []
     index = 0
     while index < count:
