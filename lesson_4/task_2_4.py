@@ -16,25 +16,25 @@
 # Функция должна корректно обрабатывать любой код валюты. Правильность параметра url можно не проверять.
 # Вводить коды валют с клавиатуры (input) необязательно.
 
-#
 from requests import get
 
 
 def currency_rates(req, curr):
-    pass
     if 4 <= len(curr) < 3 or req.find(curr) == -1 or curr.isalpha() != True:
         # print('Incorrect currency abbreviation!!!  Try next time, please')
         return
     elif curr in req:
         nom = req[(req.find('Nominal', req.find(curr)) + len('Nominal') + 1):(
-                    req.find('Nominal', ((req.find('Nominal', req.find(curr))) + 1)) - 2)]
-        price = round(float((req[(req.find('Value', req.find(curr)) + len('Value') + 1):(req.find('Value', ((req.find('Value', req.find(curr))) + 1)) - 2)]).replace(',', '.')), 2)
+                req.find('Nominal', ((req.find('Nominal', req.find(curr))) + 1)) - 2)]
+        price = round(float((req[(req.find('Value', req.find(curr)) + len('Value') + 1):(
+                    req.find('Value', ((req.find('Value', req.find(curr))) + 1)) - 2)]).replace(',', '.')), 2)
         out = f'курс {curr} ----> {nom} {curr} = {price} рублей'
         print(out)
 
 
 req = get('http://www.cbr.ru/scripts/XML_daily.asp').text
-print('== AUD, AZN, GBP, AMD, BYN, BGN, BRL, HUF, HKD, DKK, USD, EUR, INR, KZT, CAD, KGS, CNY ==\n== MDL, NOK, PLN, RON, XDR, SGD, TJS, TRY, TMT, UZS, UAH, CZK, SEK, CHF, ZAR, KRW, JPY ==')
+print(
+    '== AUD, AZN, GBP, AMD, BYN, BGN, BRL, HUF, HKD, DKK, USD, EUR, INR, KZT, CAD, KGS, CNY ==\n== MDL, NOK, PLN, RON, XDR, SGD, TJS, TRY, TMT, UZS, UAH, CZK, SEK, CHF, ZAR, KRW, JPY ==')
 curr = input('Enter currency abbreviation: ').upper()
 
 currency_rates(req, curr)
