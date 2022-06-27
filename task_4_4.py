@@ -13,10 +13,8 @@
 # Это не вызовет конфликтов.
 
 
-
 from requests import get
 import utils as u
-
 
 req = get('http://www.cbr.ru/scripts/XML_daily.asp').text
 print('== AUD, AZN, GBP, AMD, BYN, BGN, BRL, HUF, HKD, DKK, USD, EUR, INR, KZT, CAD, KGS, CNY ==\n'

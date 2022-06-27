@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd194987-e2d8-4b09-8b7b-f417fccf5661" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/task_4_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_4/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_4/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_4_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_4_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +70,6 @@
       <module name="Basics_of_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
