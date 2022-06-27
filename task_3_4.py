@@ -34,7 +34,7 @@ import datetime
 
 
 def currency_rates_advanced(req, curr):
-    if 4 <= len(curr) < 3 or req.find(curr) == -1 or curr.isalpha() != True:
+    if (4 <= len(curr) or len(curr) < 3) or req.find(curr) == -1 or curr.isalpha() != True or curr.find(' ') != -1:
         return
     elif curr in req:
         price = round(float((req[(req.find('Value', req.find(curr)) + len('Value') + 1):(

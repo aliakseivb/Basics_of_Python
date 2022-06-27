@@ -20,7 +20,7 @@ from requests import get
 
 
 def currency_rates(req, curr):
-    if 4 <= len(curr) < 3 or req.find(curr) == -1 or curr.isalpha() != True:
+    if (4 <= len(curr) or len(curr) < 3) or req.find(curr) == -1 or curr.isalpha() != True or curr.find(' ') != -1:
         # print('Incorrect currency abbreviation!!!  Try next time, please')
         return
     elif curr in req:
