@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd194987-e2d8-4b09-8b7b-f417fccf5661" name="Changes" comment="Приколы с виртуалкой. То есть модули, то нет. Пока не разобрался, но домашки вроде выкладываются. Вируталка создана в ветка lesson_4, и имеет такое же название. Пока не понятно, где по факту находятся ПЗ, но кладутся в ветку lesson_4 на гит-хаб. Вопрос как это зависит виртуалка и гит-хаб - вопрос открытый.">
-      <change afterPath="$PROJECT_DIR$/task_3_5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_3_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

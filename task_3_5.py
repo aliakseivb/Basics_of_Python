@@ -62,20 +62,20 @@
 
 # >>>> with function
 
-# def gen_tutors_groups(tutors, groups):
-#     gen_tutors = (name for name in tutors)
-#     print(type(gen_tutors))
-#     for name in groups:
-#         yield next(gen_tutors), name
-#     for name in tutors:
-#         yield next(gen_tutors), None
-#
-#
-# tutors = ['Иван', 'Анастасия', 'Петр', 'Сергей', 'Дмитрий', 'Борис', 'Елена']
-# groups = ['9А', '7В', '9Б', '9В']
-# gen_tutors = gen_tutors_groups(tutors, groups)
-# for gen in gen_tutors:
-#     print(gen)
+def gen_tutors_groups(tutors, groups):
+    gen_tutors = (name for name in tutors)
+    print(type(gen_tutors))
+    for name in groups:
+        yield next(gen_tutors), name
+    for name in tutors:
+        yield next(gen_tutors), None
+
+
+tutors = ['Иван', 'Анастасия', 'Петр', 'Сергей', 'Дмитрий', 'Борис', 'Елена']
+groups = ['9А', '7В', '9Б', '9В']
+gen_tutors = gen_tutors_groups(tutors, groups)
+for gen in gen_tutors:
+    print(gen)
 
 # >>>>  with generator expression
 
