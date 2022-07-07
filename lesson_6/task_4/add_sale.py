@@ -51,9 +51,12 @@ from sys import argv
 from os.path import join
 
 print('You added to sales file: ', argv[1:])
-print('If you want to view the records, then execute in the console: \n'
+print('--> If you want to view the records, then execute in the console: \n'
       '"show_sales.py x" to view from "x" to the end of the records; \n'
-      'or "show_sales.py x y" to view in the range from x to y.')
+      'or "show_sales.py x y" to view in the range from x to y.\n'
+      '--> If you want to replace existing data with a new value,\n'
+      'use the "change_sale.py x y" script; \n'
+      'x - line number where we will change, y - new value')
 
 add_path = join('.', 'bakery.csv')
 bakery = open(file=add_path, mode='at', encoding='utf-8')
