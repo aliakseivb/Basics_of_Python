@@ -137,10 +137,10 @@
 # for x in a:
 #     print(x)
 
-s = 'hello world'
-
-while len(s) > 5:
-    s = s[1:]
-    if len(s) > 5:
-        continue
-    print(s)
+# s = 'hello world'
+#
+# while len(s) > 5:
+#     s = s[1:]
+#     if len(s) > 5:
+#         continue
+#     print(s)
