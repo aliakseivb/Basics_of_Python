@@ -144,3 +144,13 @@
 #     if len(s) > 5:
 #         continue
 #     print(s)
+
+uniq = [1,2,3,4,5]
+fifa = ['a','b','c','d','e']
+uniq_and_fifa = dict(zip(uniq, fifa))
+print(uniq_and_fifa)
+uniq_and_fifa = {}
+
+for i in range(0, len(uniq)):
+    uniq_and_fifa[uniq[i]] = fifa[i]
+print(uniq_and_fifa)
