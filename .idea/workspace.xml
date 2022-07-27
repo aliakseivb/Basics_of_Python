@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd5109d3-f71b-48fe-b5f2-98b548ab5d7f" name="Changes" comment="Приколы с виртуалкой. То есть модули, то нет. Пока не разобрался, но домашки вроде выкладываются. Вируталка создана в ветка lesson_4, и имеет такое же название. Пока не понятно, где по факту находятся ПЗ, но кладутся в ветку lesson_4 на гит-хаб. Вопрос как это зависит виртуалка и гит-хаб - вопрос открытый.">
-      <change afterPath="$PROJECT_DIR$/lesson_10/lesson_10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/box.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/task_10_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10/task_10_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Basics_of_Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Basics_of_Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_10/lesson_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/lesson_10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_10/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,20 +51,17 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.task_1_6">
-    <configuration name="lesson_6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.task_10_2">
+    <configuration name="box" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Basics_of_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_6/lesson_6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_10/box.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -68,19 +70,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task_1_6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson_10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Basics_of_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_6/task_1_6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_10/lesson_10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,19 +88,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task_4_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="task_10_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Basics_of_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_4_5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_10/task_10_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,19 +106,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task_5_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="task_10_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Basics_of_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_5_5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_10/task_10_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,15 +128,12 @@
       <module name="Basics_of_Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_10/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,18 +144,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.task_1_6" />
-        <item itemvalue="Python.lesson_6" />
-        <item itemvalue="Python.task_5_5" />
+        <item itemvalue="Python.task_10_2" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.task_4_5" />
+        <item itemvalue="Python.lesson_10" />
+        <item itemvalue="Python.task_10_1" />
+        <item itemvalue="Python.box" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bd194987-e2d8-4b09-8b7b-f417fccf5661" name="Changes" comment="" />
+      <changelist id="dd5109d3-f71b-48fe-b5f2-98b548ab5d7f" name="Changes" comment="Приколы с виртуалкой. То есть модули, то нет. Пока не разобрался, но домашки вроде выкладываются. Вируталка создана в ветка lesson_4, и имеет такое же название. Пока не понятно, где по факту находятся ПЗ, но кладутся в ветку lesson_4 на гит-хаб. Вопрос как это зависит виртуалка и гит-хаб - вопрос открытый." />
       <created>1656139344292</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -210,6 +200,28 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson_10/lesson_10.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson_10/test.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson_10/test.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/lesson_10/test.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
