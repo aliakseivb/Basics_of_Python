@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd5109d3-f71b-48fe-b5f2-98b548ab5d7f" name="Changes" comment="Приколы с виртуалкой. То есть модули, то нет. Пока не разобрался, но домашки вроде выкладываются. Вируталка создана в ветка lesson_4, и имеет такое же название. Пока не понятно, где по факту находятся ПЗ, но кладутся в ветку lesson_4 на гит-хаб. Вопрос как это зависит виртуалка и гит-хаб - вопрос открытый.">
-      <change afterPath="$PROJECT_DIR$/lesson_10/task_10_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/test.py" afterDir="false" />
-    </list>
+    <list default="true" id="dd5109d3-f71b-48fe-b5f2-98b548ab5d7f" name="Changes" comment="Приколы с виртуалкой. То есть модули, то нет. Пока не разобрался, но домашки вроде выкладываются. Вируталка создана в ветка lesson_4, и имеет такое же название. Пока не понятно, где по факту находятся ПЗ, но кладутся в ветку lesson_4 на гит-хаб. Вопрос как это зависит виртуалка и гит-хаб - вопрос открытый." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
